@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    background: url('background.jpg') no-repeat;
+
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Agbalumo', sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 70px;
+    
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+.topright{
+    height: 50vh;
+    width: 50%;
+   
+}
+.section1{
+    max-height: 100vh;
+}
+.box{
+    margin: 12px 22px;
+}
+.secion2{
+    max-height: 100vh;
+}
